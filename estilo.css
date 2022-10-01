@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+   
+    background-image: url(fundo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+   
+    background-size: 300px;
+
+}
+.logo{
+
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    display: block;
+    font-family:Impact, sans-serif;
+    color: aliceblue;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    height: 2000px;
+    background-color: rgb(15, 66, 177);
+    max-width: 600px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 4px black;
+}
+form input{
+
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+
+h1 {
+   
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    font-family: Impact;
+    font-weight: normal;
+    border-style: double ;
+    border-color:2px  solid  black;
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 238, 0);
+    animation: pisca_pisca 0.5s infinite;
+
+}
+@keyframes pisca_pisca{
+    50%{ color:rgb(255, 238, 0); }
+    50%{ color:rgb(255, 38, 0); }
+}
+h2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+.container{
+   
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+   
+    margin: auto;
+    max-width: 450px;
+    height: 500x;
+    background-color:rgb(255, 255, 255); ;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: blue;
+   
+
+
+}
+.button{
+    
+    
+    width: 35px;
+    height: 35px;
+    color: black;
+    background-color: yellow;
+    border-color:  rgb(0, 81, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    
+
+}
+.bt2{
+    
+    width: 36px;
+    height: 36px;
+    background-color: rgb(0, 212, 0);
+    border-color:  rgb(0, 81, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.button:hover{
+    
+    background-color:  rgb(0, 81, 255);
+
+    translate: 1px 1px 1px;
+
+}
+.button:active{
+    display: block;
+    background-color: rgb(8, 190, 38);
+}
+
+
+.boxvalor{
+    display: block;
+    font-family:Impact, sans-serif;
+    color: aliceblue;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: rgb(0, 81, 255);
+    max-width: 600px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 4px black;
+
+
+}
+
+#apt{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 0, 149);
+    box-shadow:  inset 2px 1px 1px black;
+    border-color: brown;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+
+
+}
+
+#apt:active{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(128, 0, 0);
+    translate: 2px 2px 2px;
+    border-style:inset ;
+    
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    color: yellow;
+
+
+}
+#apt:hover{
+    animation: pisca_pisca 0.5s infinite;
+    background-color: rgb(60, 255, 0);
+    font-weight: bold;
+
+}
+
+
+
+
